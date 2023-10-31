@@ -1,1 +1,3 @@
 # Unity-DelegatesExercise
+This excercise consists in completing all the TO-DOs found in the project (available via the [tasks [visual studio]](https://learn.microsoft.com/en-us/visualstudio/ide/using-the-task-list?view=vs-2022) or [To-Do [rider]](https://www.jetbrains.com/help/rider/Navigation_and_Search__Navigating_Between_To_do_Items.html) window, [use this extension for [vs code]](https://marketplace.visualstudio.com/items?itemName=sandy081.todotasks))
+There are 3 main parts to the exercise and all can be found in the [excercises scene](https://github.com/jvarelaaloisio/Unity-DelegatesExercise/blob/main/Assets/Scenes/Exercises.unity).
