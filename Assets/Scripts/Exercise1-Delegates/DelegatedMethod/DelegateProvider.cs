@@ -14,25 +14,24 @@ public class DelegateProvider : MonoBehaviour
 
     private void OnEnable()
     {
-        giveSecret += WriteData;
+        giveSecret += LogSecret;
     }
 
     private void OnDisable()
     {
-        giveSecret -= WriteData;
+        giveSecret -= LogSecret;
     }
 
     [ContextMenu("Test logic consumption")]
     private void TestLogicConsumption()
     {
         //TODO: Add the parameter here to handle the secret.
-
-
         //You can log the value to test it :)
+
         consumer.ConsumeDelegate(giveSecret);
     }
 
-    private void WriteData(string secret)
+    private void LogSecret(string secret)
     {
         Debug.Log(secret);
     }

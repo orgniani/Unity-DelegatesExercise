@@ -12,7 +12,7 @@ public class DataProvider : MonoBehaviour
     [SerializeField] private DataConsumer dataConsumer;
     
     [SerializeField] private int genericAge = 18;
-    [SerializeField] private string genericName = "Santiago";
+    [SerializeField] private string genericName = "name";
     [SerializeField] private short genericPostalCode = 1408;
 
     //Delegates
