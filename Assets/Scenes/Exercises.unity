@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataConsumer: {fileID: 15970597}
   genericAge: 18
-  genericName: name
+  genericName: Santiago
   genericPostalCode: 1408
 --- !u!114 &15970597
 MonoBehaviour:
