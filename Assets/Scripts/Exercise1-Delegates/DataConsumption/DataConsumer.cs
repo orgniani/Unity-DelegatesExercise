@@ -6,7 +6,7 @@ using UnityEngine;
 public class DataConsumer : MonoBehaviour
 {
     //TODO: Complete this method
-    public void ReportPersonData(int personId, GetName getName, GetAge getAge, GetPostalCode getPostalCode)
+    public void ReportPersonData(int personId, Func<int, string> getName, Func<int, int> getAge, Func<int, short> getPostalCode)
     {
         string name = string.Empty;
         int age = -1;
